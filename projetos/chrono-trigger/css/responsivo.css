@@ -1,0 +1,101 @@
+/* RESPONSIVIDADE */
+/* 788px ESTILO -> TABLET */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+	.personagem {
+		width: auto;
+	}
+
+		 /* Final do Estilo para TABLET */	
+}
+
+
+/* <= 787px ESTILO -> CELULAR  */
+@media only screen and (max-width: 787px) {
+
+	.container h2 {
+		font-size: 20px;
+	}
+
+	/* HEADER */
+	.header img {
+		margin: 0 auto 10px auto;
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	/* INTRODUCAO PERSONAGEM SOBRE */
+	.introducao {
+		width: 100%;
+		height: 380px;
+		background: url("../img/chrono-label-mobile.jpg") no-repeat center;
+		background-size: cover;
+		margin-top: 110px;
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	.introducao h1, .bg_personagens h1, .sobre h1 {
+		font-size: 36px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #fff;
+		margin-top: 100px;
+	}
+
+	.introducao p, .bg_personagens p, .sobre p {
+		margin-top: 10px;
+	}
+
+	.plataforma_icone {
+		width: auto;
+	}
+
+	/* SOBRE */
+	.sobre {
+		width: 100%;
+		height: 380px;
+		background: url("../img/chrono-bg-sobre-mobile.jpg") no-repeat center;
+		background-size: cover;
+		margin-top: 110px;
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	.quote-externo cite {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		letter-spacing: .1em;
+	}
+
+	.quote-externo p:before, .quote-externo p:after {
+		content: "";
+		display: block;
+		width: 60px;
+		height: 2px;
+		background: #fff;
+		margin: 12px auto 10px auto;
+	} 
+
+	iframe {
+		width: auto;
+		height: auto;
+	}
+
+	/* PERSONAGEM */
+	.bg_personagens {
+		width: 100%;
+		height: 380px;
+		background: url("../img/chrono-bg-mobile.jpg") no-repeat center;
+		background-size: cover;
+		margin-top: 110px;
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	
+	/* Final do estilo para CELULAR */
+}
